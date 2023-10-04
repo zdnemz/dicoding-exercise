@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap);
+
+:root {
+  --color-1: #1f2833;
+  --color-2: #0b0c10;
+  --color-3: #66fcf1;
+  --color-4: #c5c6c7;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.header{
+  background-color: #1f2833;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.5);
+}
+.header nav{
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #c5c6c7;
+}
+
+.header nav ul{
+  display: flex;
+}
+
+.header nav ul li{
+  padding-right: 1rem;
+  list-style: none;
+}
+
+.header nav ul li a{
+  text-decoration: none;
+  color: #c5c6c7;
+  transition-duration: 400ms;
+}
+.header nav ul li a:hover{
+  color: #66fcf1;
+}
+
+.home{
+  background-color: #c5c6c7;
+  color: #1f2833;
+  padding: 4rem 2rem;
+}
+.home h1{
+  color: #0b0c10;
+  margin: .5rem 0;
+}
+.home h1 a{
+  text-decoration: none;
+  color: #0b0c10;
+  transition-duration: 300ms;
+}
+.home h1 a:hover{
+  color: #66fcf1;
+}
+.button{
+  text-decoration: none;
+}
+.button h2{
+  margin: 2rem 0 0 auto;
+  color: #c5c6c7;
+  background-color: #1f2833;
+  width: fit-content;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  transition-duration: 300ms;
+}
+.button h2:hover{
+  background-color: #0b0c10;
+  transform: translateY(.1rem);
+}
+
+.about{
+  padding: 1rem 2rem;
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+.about h1{
+  padding: 1rem 0;
+}
+.about section .card{
+  color: #1f2833;
+}
+.about section .card figure{
+  background-color: #c5c6c7;
+  border-radius: 1rem;
+  margin: 1.5rem .5rem;
+}
+.about section .card img{
+  width: 100%;
+  border-radius: 1rem;
+}
+.about section .card figcaption{
+  padding: 1rem;
+}
+
+.contact{
+  padding: 4rem 2rem;
+}
+.contact .contact-article h1{
+  padding-bottom: .5rem;
+}
+.contact section.contact-box{
+  padding: .5rem 0;
+  display: flex;
+}
+.contact .contact-box input{
+  margin-bottom: .5rem;
+  border: none;
+  border-bottom: #0b0c10 solid 1px;
+}
+
+footer{
+  padding: 2rem 4rem;
+  text-align: center;
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+
+aside{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 1000;
+  background-color: #1f2833;
+  border-radius: 0 1rem 1rem 0;
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5);
+  padding: 1rem;
+}
+aside ul li{
+  list-style: none;
+  padding: 1rem 0;
+}
+aside ul a{
+  color: #c5c6c7;
+  transition-duration: 300ms
+}
+aside ul a:hover{
+  color: #66fcf1;
+}
