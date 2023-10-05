@@ -161,9 +161,14 @@ aside{
   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5);
   padding: 1rem;
 }
+aside img{
+  width: 3rem;
+  margin: auto;
+}
 aside ul li{
   list-style: none;
   padding: 1rem 0;
+  text-align: center;
 }
 aside ul a{
   color: #c5c6c7;
