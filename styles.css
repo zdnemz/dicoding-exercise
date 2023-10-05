@@ -1,12 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap);
 
-:root {
-  --color-1: #1f2833;
-  --color-2: #0b0c10;
-  --color-3: #66fcf1;
-  --color-4: #c5c6c7;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -99,9 +92,16 @@ html{
   border-radius: 1rem;
   margin: 1.5rem .5rem;
 }
-.about section .card img{
+.about section .card .img{
   width: 100%;
+  height: 70%;
+}
+.about section .card .img img{
   border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .about section .card figcaption{
   padding: 1rem;
@@ -127,6 +127,19 @@ html{
   margin-bottom: .5rem;
   border: none;
   border-bottom: #0b0c10 solid 1px;
+}
+.contact .contact-box input.button{
+  border: none;
+  background-color: #1f2833;
+  width: auto;
+  color: #c5c6c7;
+  border-radius: 1rem;
+  padding: .25rem;
+  cursor: pointer;
+}
+.contact .contact-box input.button:hover{
+  background-color: #0b0c10;
+  transform: translateY(.1rem);
 }
 
 footer{
